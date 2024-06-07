@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Dancing+Script:wght@400..700&family=Edu+TAS+Beginner:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jaro:opsz@6..72&family=Jersey+15+Charted&family=Jost:ital,wght@0,100..900;1,100..900&family=Kalam:wght@300;400;700&family=Lugrasimo&family=Madimi+One&family=Martian+Mono:wght@100..800&family=Noto+Serif+Bengali:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Offside&family=Ojuju:wght@200..800&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -17,25 +19,26 @@ html {
 
 nav {
     height: 15vh;
-    background-color: #b7b6b6;
+    background-color: gray;
     display: flex;
     justify-content: flex-end;
+    filter: drop-shadow(1px 1px 10px black);
 }
 
 nav ul {
     margin: 50px 30px 0 0;
     display: flex;
-    gap: 50px;
+    gap: 45px;
 }
 
 nav li {
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 nav li a {
     text-decoration: none;
-    color: #000000;
+    color: #ffea00;
     position: relative;
 }
 
@@ -64,8 +67,8 @@ select{
 
 h1 {
     position: relative;
+    margin-right: 190px;
     color: rgb(255, 255, 255);
-    margin-right: 80px;
     line-height: 13vh;
     font-size: 2.5rem;
     color: #021b28;
@@ -97,29 +100,59 @@ section {
     height: 100vh;
     width: 100%;
     margin: 2px 0;
-    background: #fff;
-    background-blend-mode: overlay;
+    background-color: rgb(222, 222, 222);
+}
+
+.intro{
+    height: 30vh;
+    width: 100%;
 }
 
 .intro h2{
     display: flex;
     position: relative;
     top: 50px;
-    left: 100px;
+    left: 80px;
+    font-family: "Exo",sans-serif;
+    font-size: 2rem;
 }
 
 .intro p{
     display: flex;
     position: relative;
+    font-size: 1.3rem;
     top: 80px;
-    left: 50px;
+    left: 180px;
+}
+
+/* .intro-video{
+    position: relative;
+    top: 20;
+    right: 10;
+} */
+
+button {
+    height: 40px;
+    width: 200px;
+    padding: 2px;
+    border-radius: 8px;
+    margin: 130px 180px;
+    font-size: 1.5rem;
+    background-color: rgb(37, 189, 37);
+    color: black;
+}
+
+button:hover{
+    background-color: rgb(52, 166, 52);
+    cursor: pointer;
 }
 
 footer {
     margin: 3px 0;
-    height: 50vh;
+    height: 30vh;
     width: 100%;
-    background: linear-gradient(to bottom, #032031 0%, #072d42 50%, #021b28 100%);
+    background-color: rgb(6, 33, 82);
+    filter: drop-shadow(-1px -1px 20px rgb(33, 20, 20));
 }
 
 footer p {
