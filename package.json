@@ -1,0 +1,11 @@
+{
+  "name": "site_for_flate",
+  "version": "1.0.0",
+  "description": "It's a desining site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
