@@ -79,7 +79,24 @@
            <!-- Login -->
 
            <dialog class="login">
-
+            <h2>Log in </h2>
+            <form action="/action_page.php">
+                <label for="name">Enter your Name</label>
+                <input type="text" id="name" value="name">
+                <label for="password">Enter a password</label>
+                <input type="password" name="password" id="password" value="password">
+                <label for="cnf password">
+                    <input type="password" name="cnf password" id="cnf password" value="cnf password">Confirm your password
+                </label>
+                <label for="email">
+                    <input type="text" name="mail" value="mail" id="mail">Enter your email
+                </label>
+            </form>
+            <button>Sign up</button>
+            <a href="#remeber-me">Remember me</a>
+            <input type="checkbox" name="remember me" id="remember-me">
+            <a href="#forget-password">Forget password?</a>
+            <p>Already have an account ?</p><a href="#log-in">log in</a>
            </dialog>
 
          <!-- Contact us -->
