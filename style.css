@@ -146,6 +146,14 @@ video {
     justify-content: flex-start;
 }
 
+video:hover{
+    height: 32%;
+    width: 52%;
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 20px  rgb(135, 135, 28));
+    transition: 0.4s all ease-out;
+}
+
 .get-started{
     display: flex;
     justify-content: flex-start;
