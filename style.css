@@ -97,52 +97,78 @@ h1::after {
 }
 
 section {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     margin: 2px 0;
     background-color: rgb(222, 222, 222);
+    box-sizing: border-box;
 }
 
-.intro{
+.intro {
     height: 30vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2 {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 10px;
+    font-family: "Exo", sans-serif;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.intro p {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 80px;
+    right: 20px;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+video {
+    height: 30%;
+    width: 50%;
+    margin: 0 40px;
+    border-radius: 10px;
+    filter: drop-shadow(1px 1px 20px green);
+    position: relative;
+    top: -100px;
+    right: 10px;
+}
+
+.intro-video {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.get-started{
+    display: flex;
+    justify-content: flex-start;
     width: 100%;
 }
 
-.intro h2{
-    display: flex;
-    position: relative;
-    top: 50px;
-    left: 80px;
-    font-family: "Exo",sans-serif;
-    font-size: 2rem;
-}
-
-.intro p{
-    display: flex;
-    position: relative;
-    font-size: 1.3rem;
-    top: 80px;
-    left: 180px;
-}
-
-/* .intro-video{
-    position: relative;
-    top: 20;
-    right: 10;
-} */
-
 button {
+    margin-top: -250px;
+    margin-left: auto;
+    margin-right: 150px;
     height: 40px;
     width: 200px;
     padding: 2px;
     border-radius: 8px;
-    margin: 130px 180px;
     font-size: 1.5rem;
     background-color: rgb(37, 189, 37);
     color: black;
+    display: block;
+    justify-content: end;
+    text-align: center;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(52, 166, 52);
     cursor: pointer;
 }
